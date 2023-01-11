@@ -1,0 +1,13 @@
+.navbar {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  font-family: var(--font-mono);
+  list-style-type: none;
+}
+
+.navbar li {
+  padding: 0 1rem;
+}

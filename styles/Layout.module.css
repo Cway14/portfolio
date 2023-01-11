@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  align-items: left;
+  padding: 1rem 8rem;
+}
