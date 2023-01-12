@@ -4,8 +4,7 @@ import Layout from '../components/Layout'
 const resume = () => {
     return (
         <Layout>
-            <h1>Resume</h1>
-            <iframe src="../assets/resume.pdf" />
+            <iframe src="resume.pdf" style={{ 'height': '85vh' }} />
         </Layout>
     )
 }
