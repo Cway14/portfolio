@@ -4,8 +4,9 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import profileImage from '../assets/me.jpeg'
-import construction from '../assets/construction.png'
+import construction from '../assets/barricade.png'
 import Layout from '../components/Layout'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,16 @@ export default function Home() {
 			<p className={styles.description}> Junior Software Developer </p>
 			<div className={styles.profile}>
 				<Image src={profileImage} alt='' />
-				<p> Testing</p>
+				<p className={styles.aboutme}>
+					My name is Cameron Way and I am an aspring Software Engineer, and student at Simon Fraser University.
+					I am currently working at Design It Corp. as a Junior Software Developer.
+					For more of my work and experience, please visit my{' '}
+					<Link className={styles.subtlelink} href='/resume'>resume</Link> or <Link className={styles.subtlelink} href='/projects'>projects</Link> pages.
+					Feel free to contact me on <Link className={styles.linkedin} href='www.linkedin.com/in/camway/'>LinkedIn</Link>,{' '}
+					<Link className={styles.instagram} href='www.instagram.com/camwaay/'>Instagram</Link>,
+					or by <a className={styles.subtlelink} href='mailto:cway140@gmail.com'>email</a>.
+
+				</p>
 			</div>
 			<div className={styles.construction}>
 				<div>
