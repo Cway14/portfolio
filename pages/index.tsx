@@ -18,7 +18,7 @@ export default function Home() {
 			<div className={styles.profile}>
 				<Image src={profileImage} alt='' />
 				<p className={styles.aboutme}>
-					My name is Cameron Way and I am an aspring Software Engineer, and student at Simon Fraser University.
+					Hi there! My name is Cameron Way, and I am a student at Simon Fraser University.
 					I am currently working at Design It Corp. as a Junior Software Developer.
 					For more of my work and experience, please visit my{' '}
 					<Link className={styles.subtlelink} href='/resume'>resume</Link> or <Link className={styles.subtlelink} href='/projects'>projects</Link> pages.

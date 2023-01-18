@@ -67,8 +67,11 @@
 }
 
 .subtlelink {
-  font-weight: 600;
-  color: lightslategray;
+  font-weight: 700;
+}
+
+.subtlelink :hover {
+  color: lightgrey;
 }
 
 .construction {
@@ -89,4 +92,34 @@
 
 .construction p {
   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .profile img {
+    width: 80%;
+    height: 50%;
+    padding: 1rem 0;
+  }
+
+  .aboutme {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .construction {
+    flex-direction: column-reverse;
+  }
+
+  .construction img {
+    width: 40%;
+    height: 40%;
+    margin-left: 0;
+  }
 }

@@ -1,14 +1,32 @@
 import Link from 'next/link'
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import styles from '../styles/Navbar.module.css'
 
 const Navbar = () => {
+    const [current, setCurrent] = useState()
+    
+    const routes = [
+        { path: "/", label: "Home"},
+        { path: "/resume", label: "Resume" },
+        { path: "/projects", label: "Projects" },
+    ]
+
+    useEffect(() => {
+       if(window !== undefined){
+            setCurrent(window.location.pathname)
+        }
+    }, [])
+
+    console.log(current)
+
     return (
         <nav>
             <ul className={styles.navbar}>
-                <li><Link href="/" >Home</Link></li>
-                <li><Link href="/resume" >Resume</Link></li>
-                <li><Link href="/projects" >Projects</Link></li>
+                { routes.map((route) => {
+                   return <li className={current === route.path ? styles.current : undefined}>
+                            <a href={route.path}>{route.label}</a>
+                    </li>
+                })}
             </ul>
         </nav>
     )

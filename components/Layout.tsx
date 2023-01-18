@@ -15,9 +15,9 @@ const Layout = ({ children }: Props) => {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main>
+        <main className={styles.main}>
             <Navbar />
-            <div className={styles.main}>
+            <div className={styles.appcontainer}>
                 {children}
             </div>
         </main>

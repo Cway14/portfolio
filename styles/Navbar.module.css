@@ -11,3 +11,11 @@
 .navbar li {
   padding: 0 1rem;
 }
+
+.navbar li:hover {
+    color: lightgrey;
+}
+
+.current {
+    color: #5A5A5A;
+}

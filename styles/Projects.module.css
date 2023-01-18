@@ -1,0 +1,20 @@
+.title {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 2rem;
+  font-family: var(--font-mono);
+}
+
+
+.projectcontainer {
+    list-style: none;
+}
+
+.projectcontainer li {
+    padding: 1rem 2rem;
+}
+
+.projectcontainer a {
+    text-decoration: underline;
+}
