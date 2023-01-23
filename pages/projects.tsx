@@ -16,7 +16,8 @@ const projects = () => {
                 <li>
                     <h3>S&P 500 Trend Prediction</h3>
                     <p>Using sci-kit learn, my teamates and I were able to predict the next-day trend directions with a 84% aaccuracy using support vector machines. We classified the made our predictions using a Volatility Index, U.S. 10 Treasury Bonds, and the U.S. Dollar Index.</p>
-                    <a href="https://github.com/Cway14/CSSS">Source Code</a>
+                    <a href="sp500.pdf">Report</a>
+                    <a href="https://github.com/kazizi-dev/financial-time-series-prediction">Source Code</a>
                 </li>
                 <li>
                     <h3>Random Whistle App</h3>
