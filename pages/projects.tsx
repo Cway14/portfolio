@@ -14,6 +14,11 @@ const projects = () => {
                     <a href="https://github.com/Cway14/python-webserver">Source Code</a>
                 </li>
                 <li>
+                    <h3>S&P 500 Trend Prediction</h3>
+                    <p>Using sci-kit learn, my teamates and I were able to predict the next-day trend directions with a 84% aaccuracy using support vector machines. We classified the made our predictions using a Volatility Index, U.S. 10 Treasury Bonds, and the U.S. Dollar Index.</p>
+                    <a href="https://github.com/Cway14/CSSS">Source Code</a>
+                </li>
+                <li>
                     <h3>Random Whistle App</h3>
                     <p>A IOS app built in swift to blow a whistle at a random interval. I use this app personally to help me practice my reaction time when taking lacrosse faceoffs.</p>
                     <a href="https://github.com/Cway14/whistle-timer">Source Code</a>
