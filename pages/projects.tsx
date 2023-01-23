@@ -19,6 +19,12 @@ const projects = () => {
                     <a href="https://github.com/Cway14/whistle-timer">Source Code</a>
                 </li>
                 <li>
+                    <h3>Course Planner</h3>
+                    <p>As part of the CSSS fall hack, my teammates and I created a tool to help SFU students plan out what classes they can take. During the hackathon I tought two people how to use React.</p>
+                    <a href="https://csss.camway.ca">Live Demo</a>{' '}
+                    <a href="https://github.com/Cway14/CSSS">Source Code</a>
+                </li>
+                <li>
                     <h3>To Do List</h3>
                     <p>Simple to do list app built using React, Express, and Postgres. The purpose of the app was to learn how to develop a full stack application.</p>
                     <a href="https://todo.camway.ca">Live Demo</a>{' '}
