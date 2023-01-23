@@ -5,7 +5,7 @@ import styles from '../styles/Resume.module.css'
 const resume = () => {
     return (
         <Layout>
-            <iframe className={styles.iframe} src="resume.pdf" style={{ 'height': '85vh' }} />
+            <iframe className={styles.iframe} src="resume.pdf" />
         </Layout>
     )
 }
