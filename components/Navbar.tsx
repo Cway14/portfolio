@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import styles from '../styles/Navbar.module.css'
 
+
 const Navbar = () => {
     const [current, setCurrent] = useState<string>()
     
@@ -12,13 +13,11 @@ const Navbar = () => {
     ]
 
     useEffect(() => {
-       if(window !== undefined){
+        if (window !== undefined) {
             setCurrent(window.location.pathname)
         }
     }, [])
-
-    console.log(current)
-
+    
     return (
         <nav>
             <ul className={styles.navbar}>

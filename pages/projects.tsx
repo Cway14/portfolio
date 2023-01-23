@@ -15,7 +15,7 @@ const projects = () => {
                 </li>
                 <li>
                     <h3>S&P 500 Trend Prediction</h3>
-                    <p>Using sci-kit learn's machine learning models, my teamates and I were able to predict the next-day trend directions with a 84% aaccuracy using support vector machines. We classified the made our predictions using a Volatility Index, U.S. 10 Treasury Bonds, and the U.S. Dollar Index. To achieve our promising result, we tested several hyperparameter tuning methods including GridSearchCV, RandomSearch, and Optuna.</p>
+                    <p>Using sci-kit learn&apos;s machine learning models, my teamates and I were able to predict the next-day trend directions with a 84% aaccuracy using support vector machines. We classified the made our predictions using a Volatility Index, U.S. 10 Treasury Bonds, and the U.S. Dollar Index. To achieve our promising result, we tested several hyperparameter tuning methods including GridSearchCV, RandomSearch, and Optuna.</p>
                     <a href="sp500.pdf">Report</a>{' '}
                     <a href="https://github.com/kazizi-dev/financial-time-series-prediction">Source Code</a>
                 </li>
