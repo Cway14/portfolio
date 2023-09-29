@@ -19,7 +19,7 @@ export default function Home() {
 				<Image src={profileImage} alt='' />
 				<p className={styles.aboutme}>
 					Hi there! My name is Cameron Way, and I am a student at Simon Fraser University.
-					I am currently working at Design It Corp. as a Junior Software Developer.
+					I am currently working at SAP as an Agile Developer. 
 					For more of my work and experience, please visit my{' '}
 					<Link className={styles.subtlelink} href='/resume'>resume</Link> or <Link className={styles.subtlelink} href='/projects'>projects</Link> pages.
 					Feel free to contact me on <Link className={styles.linkedin} href='www.linkedin.com/in/camway/'>LinkedIn</Link>,{' '}
